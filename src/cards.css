@@ -1,0 +1,69 @@
+.anaDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.kok-etiket img{
+    width: 24rem;
+    height: 300px;
+}
+
+.img{
+    position: relative;
+}
+
+.img .sp{
+    position: absolute;
+    right: 0;
+    background-color: rgb(196, 235, 235);
+    color: rgb(83, 72, 72);
+    font-size: 30px;
+}
+
+.kok-etiket{
+    text-align: center;
+    border: 1px solid black;
+    width: 24rem;
+    margin: 25px;
+}
+
+.kok-etiket .pr{
+    font-size: 1.2rem;
+    color: black;
+}
+
+.card-body{
+    background-color: white;
+}
+
+.btn{
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.paragraf{
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.paragraf.expanded{
+    max-height: none;
+}
+
+.read-more{
+    background-color: transparent;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
