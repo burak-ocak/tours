@@ -1,0 +1,58 @@
+.kok-etiket {
+    width: 24rem;
+    background-color: white;
+}
+
+.cardBody{
+    padding: 10px;
+}
+
+.cardHead {
+    position: relative;
+}
+
+.cardHead .sp {
+    position: absolute;
+    right: 0;
+    background-color: rgb(138, 197, 177);
+    font-size: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+}
+
+.cardHead img {
+    width: 24rem;
+    height: 300px;
+}
+
+.btn {
+    border: 1px solid red;
+    color: red;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+
+.cardBody .pr{
+    overflow: hidden;
+    height: 100px;
+}
+
+.show{
+    border: none;
+    background-color: transparent;
+    display: block;
+    color: blue;
+}
+
+.show:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+}
