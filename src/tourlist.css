@@ -1,0 +1,34 @@
+div{
+    text-align: center;
+    /* margin: 20px; */
+}
+
+div .baslik{
+    font-size: 3rem;
+    border-bottom: 1px solid black;
+    display: inline;
+}
+
+.kok{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.last p{
+    font-size: 5rem;
+}
+
+.last button{
+    font-size: 3rem;
+    background-color: rgba(7, 66, 66, 0.493);
+    border: 1px solid rgba(7, 66, 66, 0.493);
+    transition: 0.4s;
+}
+
+.last button:hover{
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}

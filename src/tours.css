@@ -1,0 +1,60 @@
+.card{
+    width: 24rem;
+    background-color: white;
+    margin: 50px;
+    transition: 0.4s;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 10px black;
+}
+
+.card-head{
+    position: relative;
+}
+
+.card-head span{
+    position: absolute;
+    right: 0;
+    background-color: bisque;
+    font-size: 30px;
+}
+
+.card-head img{
+    width: 24rem;
+    height: 300px;
+}
+
+.btnNot{
+    border: 1px solid red;
+    color: red;
+    background-color: transparent;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+
+.btnNot:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.card-body .pr{
+    overflow: hidden;
+    height: 100px;
+}
+
+.btnDevam{
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: rgb(69, 82, 202);
+}
+
+.btnDevam:hover{
+    color: black;
+    cursor: pointer;
+}
