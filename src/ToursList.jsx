@@ -25,7 +25,7 @@ function ToursList({setLoad}) {
 
     return (
         <div>
-            <h2 className="baslik">Out Tours</h2>
+            <h2 className="baslik">Our Tours</h2>
 
             <div className="kok">
                 {
